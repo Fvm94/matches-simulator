@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="20dp"
-    app:cardElevation="@dimen/margin_default"
-    android:layout_margin="@dimen/margin_default">
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1dp"
+    android:clickable="true"
+    android:layout_margin="@dimen/margin_default"
+    android:focusable="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
